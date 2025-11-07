@@ -59,7 +59,7 @@ const useAuth = () => {
   };
 
   // Rediriger vers la page de connexion si pas connecté
-  const requireAuth = (redirectTo = '/login') => {
+  const requireAuth = (redirectTo = '/') => {
     if (!isAuthenticated) {
       toast.warning('Veuillez vous connecter pour accéder à cette fonctionnalité');
       navigate(redirectTo);
@@ -69,7 +69,7 @@ const useAuth = () => {
   };
 
   // Rediriger vers la page de connexion pour les consommateurs non connectés
-  const requireConsumerAuth = (redirectTo = '/login') => {
+  const requireConsumerAuth = (redirectTo = '/') => {
     if (!isAuthenticated) {
       toast.warning('Veuillez vous connecter pour accéder à cette fonctionnalité');
       navigate(redirectTo);
