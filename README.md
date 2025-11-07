@@ -2,7 +2,7 @@
 
 > Frontend de la plateforme Agriteranga - Application React avec Tailwind CSS
 
-## 🚀 Technologies utilisées
+##  Technologies utilisées
 
 - **React 18** - Bibliothèque JavaScript pour l'interface utilisateur
 - **Vite** - Build tool rapide et moderne
@@ -12,7 +12,7 @@
 - **React Toastify** - Notifications toast
 - **React Icons** - Bibliothèque d'icônes
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 front-agriteranga/
@@ -34,7 +34,7 @@ front-agriteranga/
 └── vite.config.js     # Configuration Vite
 ```
 
-## 🛠️ Installation
+##  Installation
 
 ### Prérequis
 
@@ -69,7 +69,7 @@ npm run dev
 
 L'application sera accessible sur `http://localhost:3000`
 
-## 📝 Scripts disponibles
+##  Scripts disponibles
 
 ```bash
 npm run dev      # Démarrer le serveur de développement
@@ -78,7 +78,7 @@ npm run preview  # Prévisualiser la build de production
 npm run lint     # Vérifier le code avec ESLint
 ```
 
-## 🎨 Personnalisation Tailwind
+##  Personnalisation Tailwind
 
 Les couleurs primaires sont configurées dans `tailwind.config.js`. Modifiez-les selon vos besoins :
 
@@ -94,7 +94,7 @@ theme: {
 }
 ```
 
-## 🔐 Authentification
+##  Authentification
 
 Le service d'authentification gère :
 - Inscription
@@ -103,7 +103,7 @@ Le service d'authentification gère :
 - Stockage du token JWT dans localStorage
 - Intercepteur Axios pour ajouter le token aux requêtes
 
-## 📦 Build pour production
+##  Build pour production
 
 ```bash
 npm run build
@@ -111,7 +111,7 @@ npm run build
 
 Les fichiers optimisés seront générés dans le dossier `dist/`
 
-## 🎓 Prochaines étapes
+##  Prochaines étapes
 
 - [ ] Ajouter les composants selon les maquettes
 - [ ] Implémenter les pages manquantes
@@ -119,10 +119,7 @@ Les fichiers optimisés seront générés dans le dossier `dist/`
 - [ ] Implémenter les routes protégées
 - [ ] Ajouter les tests unitaires
 
-## 👥 Auteur
+##  Auteurs
 
-MiniMax Agent
-
-## 📝 Licence
-
-ISC
+Ndeye Koria Dramé
+Mamadou Lamine Badji
