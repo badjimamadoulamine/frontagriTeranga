@@ -121,5 +121,5 @@ Les fichiers optimisés seront générés dans le dossier `dist/`
 
 ##  Auteurs
 
-Ndeye Koria Dramé
+Ndeye Koria Dramé, 
 Mamadou Lamine Badji
